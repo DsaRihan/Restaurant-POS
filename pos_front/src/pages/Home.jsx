@@ -1,4 +1,14 @@
 import React from 'react'
+import Greetings from '../components/home/Greetings'
+import MiniCard from '../components/home/MiniCard'
+import RecentOrders from '../components/home/RecentOrders'
+import PopularDishes from '../components/home/PopularDishes'
+import BottomNavi from '../components/shared/BottomNavi'
+import { BsCashCoin } from "react-icons/bs";
+import { GrInProgress } from "react-icons/gr";  
+import { MdTableBar } from "react-icons/md";
+import { CiCircleMore } from "react-icons/ci";
+import { BiSolidDish } from "react-icons/bi";
 
 const Home = () => {
   return (
@@ -16,7 +26,7 @@ const Home = () => {
       <div className="flex-2">
         <PopularDishes />
       </div>
-      <BottomNav />
+      <BottomNavi />
     </section>
   );
 }
